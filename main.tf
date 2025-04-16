@@ -37,7 +37,7 @@ resource "tfe_workspace" "this" {
   force_delete      = true
 
   vcs_repo {
-    identifier     = "dashath0097/prompt5"
+    identifier     = "dashath0097/promt5"
     branch         = "main"
     oauth_token_id = tfe_oauth_client.this.oauth_token_id
   }
@@ -71,7 +71,7 @@ resource "tfe_workspace" "one_eight_one" {
   force_delete      = true
 
   vcs_repo {
-    identifier     = "apollorion/simple-module"
+    identifier     = "dashath0097/promt5"
     branch         = "main"
     oauth_token_id = tfe_oauth_client.this.oauth_token_id
   }
